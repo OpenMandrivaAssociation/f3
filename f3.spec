@@ -24,8 +24,7 @@ happens with fake flash.
 %make_build all extra
 
 %install
-%make_install PREFIX=%{_prefix}
-%make_build install-extra PREFIX=%{buildroot}%{_prefix}
+%make_install install-extra PREFIX=%{_prefix}
 
 %files
 %license LICENSE

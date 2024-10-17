@@ -4,7 +4,7 @@ Release: 1
 Summary: Utility to test for fake flash drives and cards
 License: GPLv3
 Group:   System/Kernel and hardware
-URL:     http://oss.digirati.com.br/%{name}/
+URL:     https://oss.digirati.com.br/%{name}/
 Source:  https://github.com/AltraMayor/%{name}/archive/v%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires: pkgconfig(libparted)

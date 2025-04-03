@@ -9,6 +9,7 @@ Source:  https://github.com/AltraMayor/%{name}/archive/v%{version}/%{name}-%{ver
 
 BuildRequires: pkgconfig(libparted)
 BuildRequires: pkgconfig(systemd)
+BuildRequires: pkgconfig(udev)
 
 %description
 F3 is a utility to test for fake flash drives and cards. It is a Free

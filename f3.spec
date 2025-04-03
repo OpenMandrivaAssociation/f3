@@ -1,10 +1,10 @@
 Name:    f3
-Version: 8.0
+Version: 9.0
 Release: 1
 Summary: Utility to test for fake flash drives and cards
 License: GPLv3
 Group:   System/Kernel and hardware
-URL:     https://oss.digirati.com.br/%{name}/
+URL:     https://github.com/AltraMayor/%{name}/
 Source:  https://github.com/AltraMayor/%{name}/archive/v%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires: pkgconfig(libparted)
